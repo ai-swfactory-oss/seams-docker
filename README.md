@@ -2,7 +2,7 @@
 
 seams-docker is the seam for Docker buildx and OCI images: a typed SDK that the rest of the factory calls instead of shelling out to Docker directly, with a fake under `./testing` for tests.
 
-Its code arrives by migration from the private monorepo `ai-swfactory/seams`; this repository currently holds the guarded skeleton only.
+This repository holds only the guarded skeleton so far: `createSeamsDocker` returns a seam that builds no images, and `./testing` holds a fake of it.
 
 ## Packages
 
